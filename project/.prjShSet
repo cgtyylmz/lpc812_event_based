@@ -1,7 +1,0 @@
-#!/bin/sh
-PRJDirectory=$pwd
-alias make="make -C ./project/eventBased --no-print-directory"
-alias vm="vim ./application/app/src/main.c"
-alias vM="vim ./project/eventBased/Makefile"
-alias cd="cd /home/cagatay/Projects/arm/nxp/lpc812/testSpace/lpcopen/eventBased"
-alias bearmake="bear -- make -C project/eventBased all"
